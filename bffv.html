@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#nossaempresa">Nossa empresa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#colaboradores">Colaboradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Clubes</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="botafogo">Botafogo</a></li>
+            <li><a class="dropdown-item" href="flamengo">Flamengo</a></li>
+            <li><a class="dropdown-item" href="fluminense">Fluminense</a></li>
+            <li><a class="dropdown-item" href="vasco">Vasco</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+  <h3>BFFV Notícias</h3>
+  <p>Saiba tudo sobre os 4 grandes clubes do RJ</p>
+</div>
+  <style>
+    
+    .d-height {max-height: 60vh;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagens1/botafogo.jpg" alt="Los Angeles" class="d-block d-height" style="width: 100%">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens1/flamengo.jpg" alt="Chicago" class="d-block d-height" style="width: 100%">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens1/fluminense.jpg" alt="New York" class="d-block d-height" style="width: 100%">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens1/vasco.jpg" alt="New York" class="d-block d-height" style="width: 100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class="container-fluid mt-3">
+    <h3>Saiba tudo sobre o seu time!</h3>
+    <p>As notícias mais recentes do seu clube do coração estão aqui</p>
+  </div>
+
+  <div id="nossaempresa">
+    <div class="container-fluid p-5 bg-black text-white text-center">
+      <h1>O melhor site de notícias sobre os 4 grandes clubes do RJ</h1>
+      <p>Encontre aqui tudo de mais relevante que acontece no Botafogo, Flamengo, Fluminense e Vasco!</p> 
+    </div>
+      
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Botafogo x Corinthians: Leste Superior esgota, e Oeste Superior B é desbloqueado; nova parcial é de 18 mil torcedores</h3>
+          <p>Não há mais ingressos para o setor Leste Superior para o jogo do Botafogo contra o Corinthians, nesta quinta-feira (11/5), às 19h30, no Estádio Nilton Santos, pela quinta rodada do Campeonato Brasileiro-2023. O Glorioso divulgou que mais de 18 mil torcedores já garantiram presença.          </p>
+          
+        </div>
+        <div class="col-sm-4">
+          <h3>Dirigente responde a processo criminal e desabafa: “Flamengo está sendo perseguido”</h3>
+          <p>Diretor de relações externas do Flamengo, Cacau Cotta se tornou o primeiro dirigente de futebol da história a responder processo criminal por um ato desportivo, que aconteceu na final do Cariocão 2022. Após mais de um ano com a ação em aberto, o diretor compareceu à nova audiência sobre o caso às 15h (horário de Brasília) desta quarta-feira (10). Em exclusiva ao Coluna do Fla, Cacau foi incisivo ao dizer que o Rubro-Negro sofre “perseguição”.</p>
+          
+        </div>
+        <div class="col-sm-4">
+          <h3>Ex-Fluminense e atualmente no Grêmio, Nathan é citado em investigação sobre manipulação de apostas</h3>        
+          <p>O meia Nathan, ex-jogador do Fluminense e atualmente no Grêmio, é mais um atleta citado na Operação Penalidade Máxima II, que investiga a manipulação de apostas na Série A do Campeonato Brasileiro de 2022 e nos Estaduais deste ano. Ainda atuando pelo time carioca, o atleta teria sido cooptado para receber um cartão amarelo no jogo contra o Fortaleza, no Maracanã</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="botafogo">
+    <div class="container-fluid p-5 bg-black text-white text-center">
+      <h1>As notícias mais recentes do fogão!</h1>
+      <p>Encontre aqui tudo de mais relevante que acontece no Botafogo</p> 
+    </div>
+      
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Botafogo x Corinthians: Leste Superior esgota, e Oeste Superior B é desbloqueado; nova parcial é de 18 mil torcedores</h3>
+          <p>Não há mais ingressos para o setor Leste Superior para o jogo do Botafogo contra o Corinthians, nesta quinta-feira (11/5), às 19h30, no Estádio Nilton Santos, pela quinta rodada do Campeonato Brasileiro-2023. O Glorioso divulgou que mais de 18 mil torcedores já garantiram presença.          </p>
+          
+        </div>
+        <div class="col-sm-4">
+          <h3>Botafogo goleia Botafogo-PB por 8 a 0 e se recupera em grande estilo no Brasileiro Feminino Sub-20</h3>
+          <p>O Botafogo goleou o Botafogo-PB por 8 a 0 na tarde desta quarta-feira (10), no CEFAT, e se recuperou em grande estilo no Campeonato Brasileiro Feminino Sub-20, depois de ter perdido os primeiros pontos na rodada passada, no empate fora de casa diante do Fortaleza.</p>
+          
+        </div>
+        <div class="col-sm-4">
+          <h3>Após quatro rodadas, Botafogo tem em média o quarto ingresso mais caro do Brasileirão</h3>        
+          <p>Líder isolado do Campeonato Brasileiro-2023, o Botafogo ainda não conseguiu lotar o Estádio Nilton Santos nos jogos contra São Paulo e Atlético-MG. E uma justificativa parece ser a maior de todas: o alto preço dos ingressos.
+            O FogãoNET fez um levantamento do ticket médio (valor médio do ingresso) nos dois jogos que cada equipe fez até aqui no Brasileirão, e o Glorioso só fica atrás de Palmeiras, Corinthians e Flamengo.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Colaboradores-->
+  <div id="colaboradores">
+   <!--<div class="container">-->
+    <div class="row">
+      <div class="container-fluid p-5 bg-black text-white text-center">
+        <h1>COLABORADORES</h1>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagens1/jorn2.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+          <h5 class="card-body">
+            <h5 class="card-title">Olavo de carvalho</h5>
+            <p class="card-text">Jornalista</p>
+     </div>
+      </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="imagens1/jorn1.jpeg" class="card-img-top" alt="Imagem">
+            <h5 class="card-body">
+              <h5 class="card-title">Nícolas Meirelles</h5>
+              <p class="card-text">Jornalista</p>
+       </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="imagens1/jorn3.jpg" class="card-img-top" alt="Imagem de Perfil 2">
+              <h5 class="card-body">
+                <h5 class="card-title">Lucas Januzzi</h5>
+                <p class="card-text">Jornalista</p>
+      </div>
+        </div>
+          </div>
+            </div>
+            
+            
+
+
+
+  </div>
+</body>
+</html>
