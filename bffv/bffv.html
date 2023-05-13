@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <div class="container-fluid">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -18,13 +18,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
+            <a class="nav-link" href="#home">Home page</a>
+          </li>
+        <li class="nav-item">
           <a class="nav-link" href="#nossaempresa">Nossa empresa</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#colaboradores">Colaboradores</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#faleconosco">Fale conosco</a>
         </li>  
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Clubes</a>
@@ -40,14 +43,23 @@
   </div>
 </nav>
 
+    <div id="home">
 <div class="container-fluid mt-3">
+  <h3>BFFV Notícias</h3>
   <h3>BFFV Notícias</h3>
   <p>Saiba tudo sobre os 4 grandes clubes do RJ</p>
 </div>
   <style>
     
-    .d-height {max-height: 60vh;
+    .d-height {max-height: 63vh;
     }
+    #menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+}
   
   </style>
 </head>
@@ -79,6 +91,7 @@
         <img src="imagens1/vasco.jpg" alt="New York" class="d-block d-height" style="width: 100%">
       </div>
     </div>
+        </div>
     
     <!-- Left and right controls/icons -->
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -94,7 +107,7 @@
   </div>
 
   <div id="nossaempresa">
-    <div class="container-fluid p-5 bg-black text-white text-center">
+    <div class="container-fluid p-5 bg-primary text-white text-center">
       <h1>O melhor site de notícias sobre os 4 grandes clubes do RJ</h1>
       <p>Encontre aqui tudo de mais relevante que acontece no Botafogo, Flamengo, Fluminense e Vasco!</p> 
     </div>
@@ -103,7 +116,7 @@
       <div class="row">
         <div class="col-sm-4">
           <h3>Marçal, do Botafogo, revela que recebeu convite para esquema de apostas e recusou: ‘Que as pessoas possam responder à altura’</h3>
-          <p>O escândalo de manipulação de jogos que assola o futebol brasileiro quase teve impacto no Botafogo. O lateral-esquerdo Marçal revelou, após a vitória por 3 a 0 sobre o Corinthians, que recebeu convite para participar da esquema. O jogador recusou. A informação é da repórter Talita Giudice, da Rádio Globo, na noite desta quinta-feira (12/5).– No meu caso, foi ano passado contra o Flamengo que eu tomo cartão por reclamação. Depois eu recebi uma mensagem no Instagram dizendo: “Tomando cartão por reclamação? Mais vale ganhar dinheiro por isso”. Eu dei uma resposta que não pode passar na televisão – disse Marçal, em trecho reproduzido pelo site “GE”.</p>
+          <p>O escândalo de manipulação de jogos que assola o futebol brasileiro quase teve impacto no Botafogo. O lateral-esquerdo Marçal revelou, após a vitória por 3 a 0 sobre o Corinthians, que recebeu convite para participar da esquema. O jogador recusou. A informação é da repórter Talita Giudice, da Rádio Globo, na noite desta quinta-feira (12/5).– No meu caso, foi ano passado contra o Flamengo que eu tomo cartão por reclamação.</p>
           
         </div>
         <div class="col-sm-4">
@@ -113,15 +126,15 @@
         </div>
         <div class="col-sm-4">
           <h3>Ex-Fluminense e atualmente no Grêmio, Nathan é citado em investigação sobre manipulação de apostas</h3>        
-          <p>O meia Nathan, ex-jogador do Fluminense e atualmente no Grêmio, é mais um atleta citado na Operação Penalidade Máxima II, que investiga a manipulação de apostas na Série A do Campeonato Brasileiro de 2022 e nos Estaduais deste ano. Ainda atuando pelo time carioca, o atleta teria sido cooptado para receber um cartão amarelo no jogo contra o Fortaleza, no Maracanã</p>
+          <p>O meia Nathan, ex-jogador do Fluminense e atualmente no Grêmio, é mais um atleta citado na Operação Penalidade Máxima II, que investiga a manipulação de apostas na Série A do Campeonato Brasileiro de 2022 e nos Estaduais deste ano. Ainda atuando pelo time carioca, o atleta teria sido cooptado para receber um cartão amarelo no jogo contra o Fortaleza, no Maracanã.</p>
         </div>
       </div>
     </div>
   </div>
 
   <div id="botafogo">
-    <div class="container-fluid p-5 bg-black text-white text-center">
-      <h1>As notícias mais recentes do fogão!</h1>
+    <div class="container p-5 bg-black text-white text-center teste-barra">
+      <h1>As notícias mais recentes do Fogão!</h1>
       <p>Encontre aqui tudo de mais relevante que acontece no Botafogo</p> 
     </div>
       
@@ -129,17 +142,17 @@
       <div class="row">
         <div class="col-sm-4">
           <h3>Goiás x Botafogo: torcida alvinegra esgota ingressos do setor visitante em apenas uma hora</h3>
-          <p>A torcida do Botafogo esgotou em apenas uma hora os ingressos do setor visitante do Estádio Hailé Pinheiro, em Goiânia, para o jogo contra o Goiás, no próximo domingo, às 18h30, pela sexta rodada do Campeonato Brasileiro.Os bilhetes para a torcida alvinegra custavam R$ 140 (inteira) e R$ 70 (meia), e as vendas iniciaram-se nesta sexta. A carga total de ingressos colocados à venda no Estádio da Serrinha foi de 12 mil – cerca de 1.200 para os visitantes.O Botafogo lidera o Campeonato Brasileiro com 15 pontos em cinco jogos (100% de aproveitamento), enquanto o Goiás soma apenas três pontos até o momento (uma vitória, sobre o Corinthians, e derrotas para Athletico-PR, Internacional, Palmeiras e Flamengo.</p>
+          <p>A torcida do Botafogo esgotou em apenas uma hora os ingressos do setor visitante do Estádio Hailé Pinheiro, em Goiânia, para o jogo contra o Goiás, no próximo domingo, às 18h30, pela sexta rodada do Campeonato Brasileiro.Os bilhetes para a torcida alvinegra custavam R$ 140 (inteira) e R$ 70 (meia), e as vendas iniciaram-se nesta sexta. A carga total de ingressos colocados à venda no Estádio da Serrinha foi de 12 mil – cerca de 1.200 para os visitantes.</p>
           
         </div>
         <div class="col-sm-4">
           <h3>Em forte desabafo, Pedrinho pede respeito ao Botafogo: ‘É um time gigantesco.'</h3>
-          <p>O comentarista Pedrinho fez um forte desabafo no “Troca de Passes”, do SporTV, ao analisar a vitória do Botafogo em cima do Corinthians por 3 a 0, no Nilton Santos, pela quinta rodada do Brasileirão-2023. O ex-jogador se mostrou irritado com termos usados para se referir à torcida alvinegra, pediu mais respeito ao Glorioso e mais responsabilidade aos analistas e comentaristas de futebol em geral.Outro comentarista na mesa, Paulo Cesar Vasconcellos também falou sobre as críticas direcionadas ao Botafogo num passado muito recente e a “fila de desculpas” ao treinador. Agora, o Glorioso acumula 15 jogos sem perder e é líder isolado do Campeonato Brasileiro com 100% de aproveitamento.</p>
+          <p>O comentarista Pedrinho fez um forte desabafo no “Troca de Passes”, do SporTV, ao analisar a vitória do Botafogo em cima do Corinthians por 3 a 0, no Nilton Santos, pela quinta rodada do Brasileirão-2023. O ex-jogador se mostrou irritado com termos usados para se referir à torcida alvinegra, pediu mais respeito ao Glorioso e mais responsabilidade aos analistas e comentaristas de futebol em geral.</p>
           
         </div>
         <div class="col-sm-4">
           <h3>Marçal, do Botafogo, revela que recebeu convite para esquema de apostas e recusou: ‘Que as pessoas possam responder à altura’</h3>        
-          <p>O escândalo de manipulação de jogos que assola o futebol brasileiro quase teve impacto no Botafogo. O lateral-esquerdo Marçal revelou, após a vitória por 3 a 0 sobre o Corinthians, que recebeu convite para participar da esquema. O jogador recusou. A informação é da repórter Talita Giudice, da Rádio Globo, na noite desta quinta-feira (12/5).– No meu caso, foi ano passado contra o Flamengo que eu tomo cartão por reclamação. Depois eu recebi uma mensagem no Instagram dizendo: “Tomando cartão por reclamação? Mais vale ganhar dinheiro por isso”. Eu dei uma resposta que não pode passar na televisão – disse Marçal, em trecho reproduzido pelo site “GE”.
+          <p>O escândalo de manipulação de jogos que assola o futebol brasileiro quase teve impacto no Botafogo. O lateral-esquerdo Marçal revelou, após a vitória por 3 a 0 sobre o Corinthians, que recebeu convite para participar da esquema. O jogador recusou. A informação é da repórter Talita Giudice, da Rádio Globo, na noite desta quinta-feira (12/5).– No meu caso, foi ano passado contra o Flamengo que eu tomo cartão por reclamação.
           </p>
           
         </div>
@@ -147,9 +160,12 @@
     </div>
   </div>
   <div id="flamengo">
-    <div class="container-fluid p-5 bg-black text-white text-center">
-      <h1>As notícias mais recentes do mengão!</h1>
-      <p>Encontre aqui tudo de mais relevante que acontece no Flamengo</p> 
+    <div class="container p-5 bg-danger text-white text-center teste-barra ">
+      <div class="">
+        <h1>As notícias mais recentes do Mengão!</h1>
+        <p>Encontre aqui tudo de mais relevante que acontece no Flamengo</p> 
+      </div>
+      
     </div>
       
     <div class="container mt-5">
@@ -158,14 +174,14 @@
           <h3>Flamengo tem 6 desfalques para jogo contra o Bahia, pelo Brasileirão</h3>
           <p>Flamengo e Bahia se enfrentam na tarde deste sábado (13), na Arena Fonte Nova, pela sexta rodada do Campeonato Brasileiro. De olho no confronto, o técnico Jorge Sampaoli terá ‘dor de cabeça’ para escalar a equipe. Isso porque, o Mais Querido possui seis desfalques para o embate.
 
-Na partida contra o Goiás, na quarta-feira (10), no Maracanã, Pedro sentiu dores no adutor da coxa e virou desfalque para o jogo diante do Bahia. Além do camisa 9, os seguintes atletas não viajarão para o duelo contra a equipe baiana: Matheuzinho, Filipe Luís, Thiago Maia e Pedro. Gerson e Varela, por outro lado, existe a expectativa de que os dois atletas participem da delegação rubro-negra.</p>
+Na partida contra o Goiás, na quarta-feira (10), no Maracanã, Pedro sentiu dores no adutor da coxa e virou desfalque para o jogo diante do Bahia. </p>
           
         </div>
         <div class="col-sm-4">
           <h3>Diego Ribas atende pedido de aldeia indígena apaixonada pelo Flamengo</h3>
           <p>O Flamengo tem torcedores espalhados por toda parte do Brasil e do Mundo. Dessa vez, porém, o destaque vai para uma aldeia indígena localizada em Roraima, que possui vários ‘apaixonados’ pelo Mais Querido. Após entrarem em contato com Diego Ribas, o povo de Olomai recebeu doação de materiais esportivos por parte do ex-jogador do Rubro-Negro.
 
-Os líderes da aldeia Olamai produziram um vídeo, com auxílio de pesquisadores, e enviaram ao ex-jogador do Flamengo. A ideia era mostrar a relação dos indígenas com o esporte. Além disso, para que as equipes continuassem praticando as atividades era preciso um apoio em forma de equipamento. As informações são do portal ‘GE’.</p>
+Os líderes da aldeia Olamai produziram um vídeo, com auxílio de pesquisadores, e enviaram ao ex-jogador do Flamengo.</p>
           
         </div>
         <div class="col-sm-4">
@@ -173,7 +189,7 @@ Os líderes da aldeia Olamai produziram um vídeo, com auxílio de pesquisadores
 </h3>        
           <p>Filipe Luís está prestes a voltar aos gramados pelo Flamengo, pois o lateral esquerdo se recuperou da lesão na panturrilha esquerda. Porém, enquanto se tratava da contusão, o atleta, definitivamente, realizou o sonho e, agora, também é treinador de futebol.
 
-O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasileira de Futebol (CBF). Filipe Luís, inclusive, já tem o diploma e a carteirinha de treinador. Importante salientar, no entanto, que o jogador só poderá comandar as categorias de base das equipes do Brasil, pois é o que abrange esta formação feita pelo atleta do Flamengo.
+O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasileira de Futebol (CBF). Filipe Luís, inclusive, já tem o diploma e a carteirinha de treinador.
           </p>
           
         </div>
@@ -182,8 +198,8 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
   </div>
 
   <div id="fluminense">
-    <div class="container-fluid p-5 bg-black text-white text-center">
-      <h1>As notícias mais recentes do fluzão!</h1>
+    <div class="container p-5 bg-success text-white text-center teste-barra">
+      <h1>As notícias mais recentes do Fluzão!</h1>
       <p>Encontre aqui tudo de mais relevante que acontece no Fluminense</p> 
     </div>
       
@@ -191,12 +207,12 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
       <div class="row">
         <div class="col-sm-4">
           <h3>Jornal revela previsão para lançamento do novo terceiro uniforme do Fluminense</h3>
-          <p>Depois dos lançamentos dos uniformes 1 e 2 produzidos pela Umbro, o site do jornal O Globo revelou qual é a previsão do Fluminense para lançar também o seu terceiro uniforme. De acordo com a publicação, com a expectativa de causar uma “surpresa” no público, o planejamento no clube é promover a nova camisa em setembro.O Fluminense lançou, recentemente, as camisas branca e tricolor, que já estão sendo utilizadas nos jogos. Em entrevista ao “Mundo GV”, podcast do ex-goleiro Getúlio Vargas, o presidente Mário Bittencourt falou a respeito.
+          <p>Depois dos lançamentos dos uniformes 1 e 2 produzidos pela Umbro, o site do jornal O Globo revelou qual é a previsão do Fluminense para lançar também o seu terceiro uniforme. De acordo com a publicação, com a expectativa de causar uma “surpresa” no público, o planejamento no clube é promover a nova camisa em setembro.O Fluminense lançou, recentemente, as camisas branca e tricolor, que já estão sendo utilizadas nos jogos. 
 </p> 
         </div>
         <div class="col-sm-4">
           <h3>Jornalista informa grau da lesão de Alexsander e projeção de retorno</h3>
-          <p>Em seu canal no YouTube, o jornalista José Ilan revelou mais informações sobre a lesão de Alexsander no ligamento medial colateral do joelho esquerdo. De acordo com o profissional, o problema do volante do Fluminense não é tão simples, apesar de não ser grave, e um retorno aos campos antes de dois meses é pouco provável.Informa Ilan que a lesão de Alexsander é grau 2 (mediana – 1 seria mais leve e 3, mais pesada). O tratamento é conservador, sem cirurgia. Ainda assim, o volante precisa ficar imobilizado por cerca de três semanas. Assim, numa previsão otimista, dois meses é o mínimo.</p>
+          <p>Em seu canal no YouTube, o jornalista José Ilan revelou mais informações sobre a lesão de Alexsander no ligamento medial colateral do joelho esquerdo. De acordo com o profissional, o problema do volante do Fluminense não é tão simples, apesar de não ser grave, e um retorno aos campos antes de dois meses é pouco provável.Informa Ilan que a lesão de Alexsander é grau 2 (mediana – 1 seria mais leve e 3, mais pesada). O tratamento é conservador, sem cirurgia.</p>
           
         </div>
         <div class="col-sm-4">
@@ -211,8 +227,8 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
   </div>
 
   <div id="vasco">
-    <div class="container-fluid p-5 bg-black text-white text-center">
-      <h1>As notícias mais recentes do vascão!</h1>
+    <div class="container p-5 bg-black text-white text-center teste-barra">
+      <h1>As notícias mais recentes do Vascão!</h1>
       <p>Encontre aqui tudo de mais relevante que acontece no Vasco da Gama</p> 
     </div>
       
@@ -230,8 +246,7 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
           <p>Em entrevista ao canal Fanático Vascaíno, o presidente Jorge Salgado revelou que os 30% da Sociedade Anônima do Futebol (SAF) do Vasco da Gama que pertencem à associação poderão ser parcialmente vendidos para a quitação de dívidas por parte do Clube.
 
             O mandatário explicou que tratam-se de débitos que ainda não foram julgados judicialmente e, portanto, não entraram no último balanço financeiro divulgado pelo Gigante da Colina.
-            
-            – Existe uma ”dívida oculta”, de processos que ainda não foram julgados pela Justiça e não estão contabilizados na dívida oficial. Então, a tendência é de diminuirmos a participação de 30% para termos que pagar alguma dívida que possa surgir – disse.</p>
+            </p>
           
         </div>
         <div class="col-sm-4">
@@ -251,7 +266,7 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
   <div id="colaboradores">
    <!--<div class="container">-->
     <div class="row">
-      <div class="container-fluid p-5 bg-black text-white text-center">
+      <div class="container-fluid p-5 bg-info text-white text-center">
         <h1>COLABORADORES</h1>
       </div>
       <div class="col-md-4">
@@ -260,6 +275,10 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
             <h5 class="card-body">
               <h5 class="card-title">Irineu da Silva Sauro</h5>
               <p class="card-text">Jornalista</p>
+              <p class="card-text">Narrador</p>
+              <p class="card-text">Comentarista</p>
+              <p class="card-text">Apresentador</p>
+              
        </div>
           </div>
         <div class="col-md-4">
@@ -267,7 +286,10 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
             <img src="imagens1/craqueneto.jpg" class="card-img-top" alt="Imagem">
             <h5 class="card-body">
               <h5 class="card-title">Nícolas Meirelles</h5>
-              <p class="card-text">Jornalista</p>
+              <p class="card-text">Fundador</p>
+              <p class="card-text">Programador</p>
+              <p class="card-text">Administrador</p>
+              <p class="card-text">Comentarista</p>
        </div>
           </div>
           <div class="col-md-4">
@@ -275,12 +297,46 @@ O lateral esquerdo concluiu o curso de “Licença B” na Confederação Brasil
               <img src="imagens1/farid.jpg" class="card-img-top" alt="Imagem de Perfil 2">
               <h5 class="card-body">
                 <h5 class="card-title">Lucas Januzzi</h5>
-                <p class="card-text">Jornalista</p>
+                <p class="card-text">Fundador</p>
+              <p class="card-text">Programador</p>
+              <p class="card-text">Administrador</p>
+              <p class="card-text">Comentarista</p>
       </div>
         </div>
           </div>
             </div>
-            
+    <div id ="faleconosco">
+        <div class="container">
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Senha:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Lembrar
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+          <div class="container mt-3">
+            <h2>Deixe seu comentário!</h2>
+            <p>Comente sobre nosso site ou nossas notícias</p>
+            <form action="/action_page.php">
+              <div class="mb-3 mt-3">
+                <label for="comment">Comentários:</label>
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+          
+    </div>
             
 
 
