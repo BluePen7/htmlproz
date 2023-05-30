@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trabalho</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="site.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      </nav>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Qualidade de software</h1>
+  <p>Saiba tudo sobre qualidade de software</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>O que é qualidade de software?</h3>
+      <p>Na área de TI, a qualidade de software é dada por um conjunto de fatores a serem atendidos. Nesse sentido, a aplicação precisa estar em conformidade com as especificações de requisitos tomadas junto ao cliente, além de seguir padrões de qualidade da empresa. </p>
+      <p>Isso porque cada ferramenta terá funções específicas, necessidades e até mesmo objetivos diversos. Dessa forma, a qualidade de software é medida pelo atendimento às necessidades do usuário. </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Quais insights o teste de qualidade de software oferece? </h3>
+      <p>
+        Adotar técnicas de teste de software permite a padronização e verificação do desempenho de um sistema. Realizar testes de software evita transtornos, atrasos em entregas e manutenções em excesso, pois:
+        
+        Indica se seu software está cumprindo seu papel de forma efetiva;
+        Identifica eventuais correções e/ou otimizações;
+        Verifica a velocidade de resposta e eficiência do programa;
+        Aponta se o software atende aos padrões e normas de qualidade.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Seu software terá a qualidade reconhecida se trouxer retorno ao mesmo e um baixo custo.</h3>        
+      <p>Devido a estas diferentes visões, a qualidade de software mostra a sua grande importância no processo de desenvolvimento, pois na verdade sua função é garantir que o software que será entregue ao cliente no fim do projeto, atenderá a todas as suas expectativas e que mesmo que sem saber, o cliente receberá um produto desenvolvido com a utilização de boas práticas e técnicas de desenvolvimento adequadas.</p>
+    </div>
+  </div>
+</div>
+
+<div id = login><a name = login></a>
+<head>
+    <title>Formulário de Login</title>
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
+    <script>
+      function fazerLogin() {
+        var usuarioCorreto = "usuario";
+        var senhaCorreta = "senha123";
+        var tentativas = 0;
+  
+        while (tentativas < 5) {
+          var usuario = document.getElementById("usuario").value;
+          var senha = document.getElementById("senha").value;
+  
+          if (usuario === usuarioCorreto && senha === senhaCorreta) {
+            alert("Login bem-sucedido!");
+            break;
+          } else {
+            tentativas++;
+            var restantes = 5 - tentativas;
+            document.getElementById("mensagem").textContent = "Usuário ou senha incorretos. Tente novamente. Tentativas restantes: " + restantes;
+          }
+        }
+  
+        if (tentativas === 5) {
+          alert("Você excedeu o número máximo de tentativas. Conta bloqueada.");
+          document.getElementById("usuario").disabled = true;
+          document.getElementById("senha").disabled = true;
+          document.getElementById("submit").disabled = true;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Formulário de Login</h2>
+    <p id="mensagem"></p>
+    <form>
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" name="usuario">
+      <br><br>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha">
+      <br><br>
+      <input type="button" value="Login" onclick="fazerLogin()" id="submit">
+    </form>
+</div>
+<footer>
+    <p>Autores: Nícolas e Lucas</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="site.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#login">Login</a>
+        </li>
+      </ul>
+  </footer>
+
+</body>
+</html>
