@@ -1,0 +1,34 @@
+Kanban é um sistema de gerenciamento visual que ajuda a melhorar a eficiência e a produtividade em projetos e fluxos de trabalho. Originado no Japão, o termo "kanban" significa literalmente "cartão visual" ou "sinalização". Esse método foi desenvolvido pela Toyota nas décadas de 1940 e 1950 como parte do sistema de produção Just-in-Time (JIT), com o objetivo de otimizar a produção e minimizar o desperdício.
+
+O sistema Kanban utiliza cartões ou etiquetas visuais para representar tarefas, processos ou itens em um quadro. Esses cartões são movidos ao longo de colunas ou etapas, indicando o status atual de cada item e permitindo que a equipe visualize facilmente o progresso e identifique gargalos. Isso promove transparência, colaboração e o gerenciamento eficaz do trabalho.
+
+Existem alguns princípios e processos-chave no Kanban:
+
+1. Fluxo contínuo: O Kanban enfatiza a importância de manter um fluxo de trabalho contínuo, evitando interrupções e sobrecargas excessivas. O objetivo é manter um equilíbrio saudável entre a capacidade de trabalho da equipe e a demanda de tarefas.
+
+2. Limite de trabalho em progresso (WIP): Estabelecer limites para o número de tarefas em andamento em cada estágio do fluxo de trabalho é essencial para evitar gargalos e sobrecargas. Esses limites ajudam a equipe a focar no trabalho atual e a finalizá-lo antes de começar algo novo.
+
+3. Melhoria contínua: O Kanban incentiva a reflexão e a busca constante por melhorias. As equipes são encorajadas a analisar métricas de desempenho, identificar problemas e implementar ajustes para aprimorar o fluxo de trabalho.
+
+Os artefatos mais comuns no Kanban incluem:
+
+1. Quadro Kanban: É uma representação visual do fluxo de trabalho, geralmente dividido em colunas que representam cada estágio do processo. Os cartões são movidos de uma coluna para outra à medida que as tarefas avançam.
+
+2. Cartões Kanban: São os elementos visuais que representam as tarefas ou itens a serem executados. Eles podem conter informações relevantes, como descrição, prazo e responsável.
+
+3. Métricas e gráficos: O Kanban utiliza métricas para medir o desempenho e a eficiência do fluxo de trabalho. Gráficos como o Diagrama de Fluxo Cumulativo (CFD) ou o Lead Time ajudam a identificar padrões e oportunidades de melhoria.
+
+O Kanban é aplicado em uma variedade de setores e contextos, desde o desenvolvimento de software até a gestão de projetos, suporte técnico, marketing e até mesmo em tarefas pessoais. Ele é especialmente útil em ambientes nos quais as demandas são imprevisíveis e as prioridades podem mudar com frequência.
+
+Falando um pouco sobre o Scrumban, trata-se de uma combinação entre o Kanban e o Scrum, dois métodos ágeis populares. O Scrumban aproveita a abordagem do Kanban para gerenciar fluxos de trabalho. Diferentemente do Scrum, o Scrumban não tem iterações fixas (sprints). Em vez disso, as tarefas são adicionadas ao quadro Kanban e são executadas continuamente, conforme a equipe tem capacidade para fazê-las. Isso proporciona uma maior flexibilidade e uma resposta mais ágil às demandas em constante mudança.
+
+Uma ferramenta digital popular para exemplificar o quadro Kanban é o Trello. O Trello é uma plataforma baseada na web que permite criar e gerenciar quadros Kanban de forma virtual.
+
+No Trello, você pode criar um quadro para representar seu fluxo de trabalho, dividindo-o em colunas que refletem cada etapa do processo. Por exemplo, você pode ter colunas como "A fazer", "Em andamento" e "Concluído". Cada coluna contém cartões individuais que representam as tarefas ou itens a serem executados.
+
+Os cartões no Trello podem ser movidos arrastando e soltando-os entre as colunas para indicar seu status atual. Isso permite que você visualize facilmente o progresso das tarefas e identifique qualquer gargalo ou atraso. Além disso, você pode adicionar informações detalhadas aos cartões, como descrição, prazo, responsáveis e anexos, para manter tudo organizado e acessível.
+
+Uma das vantagens do Trello e outras ferramentas digitais é a capacidade de colaboração em tempo real. Várias pessoas podem acessar o quadro Kanban ao mesmo tempo, adicionar comentários, atribuir tarefas a outros membros da equipe e receber notificações sobre alterações ou atualizações.
+
+Além do Trello, existem outras opções populares de ferramentas digitais para quadros Kanban, como o Jira Software, o Asana, o Monday.com e o KanbanFlow. Essas ferramentas oferecem recursos adicionais, como integrações com outros aplicativos, relatórios avançados, automações e personalização, permitindo que as equipes adaptem o Kanban às suas necessidades específicas.
+Em resumo, o uso de uma ferramenta digital, como o Trello, facilita a implementação do quadro Kanban, oferecendo uma maneira visual e interativa de gerenciar tarefas, acompanhar o progresso e promover a colaboração em equipe.
